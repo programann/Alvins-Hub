@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.head{
+    background-image: url(https://images.pexels.com/photos/16445673/pexels-photo-16445673/free-photo-of-console-controller-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 30px;
+    width: 45%;
+    height: 300px;
+    color: blue;
+    padding: 20px;
+
+}
+.item{
+    color: blueviolet;
+    border: 10px solid rgb(5, 5, 66);
+    width: 45%;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
